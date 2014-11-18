@@ -1,0 +1,19 @@
+apply plugin: 'war'
+apply plugin: 'maven'
+apply plugin: 'eclipse-wtp'
+
+def sonatypeStaging = 'http://oss.sonatype.org/content/repositories/snapshots'
+
+def jstlVersion = '1.2'
+def pvfVersion = '1.0.+'
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+	maven {url sonatypeStaging}
+}
+
+dependencies {
+	compile 'javax.servlet:jstl:' + jstlVersion
+	compile 'au.com.agic:parameter_validation_filter:' + pvfVersion
+}
