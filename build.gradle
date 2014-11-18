@@ -5,7 +5,6 @@ apply plugin: 'eclipse-wtp'
 def sonatypeStaging = 'http://oss.sonatype.org/content/repositories/snapshots'
 
 def jstlVersion = '1.2'
-def pvfVersion = '1.0.+'
 
 repositories {
 	mavenLocal()
@@ -15,5 +14,4 @@ repositories {
 
 dependencies {
 	compile 'javax.servlet:jstl:' + jstlVersion
-	compile 'au.com.agic:parameter_validation_filter:' + pvfVersion
 }

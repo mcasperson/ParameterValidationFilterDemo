@@ -6,7 +6,7 @@
 
     <filter>
         <filter-name>ParameterValidationFilter</filter-name>
-        <filter-class>com.disc_au.validation.filter.ParameterValidationFilter</filter-class>
+        <filter-class>com.matthewcasperson.validation.filter.ParameterValidationFilter</filter-class>
         <init-param>
             <param-name>configFile</param-name>
             <param-value>/WEB-INF/xml/pvf.xml</param-value>
