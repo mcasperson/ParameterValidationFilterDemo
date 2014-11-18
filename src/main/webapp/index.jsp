@@ -14,7 +14,7 @@
 	<nav class="navbar navbar-default navbar-pf" role="navigation"> <a class="navbar-brand" href="#">Parameter Validation Filter Test</a> </nav>
 	<div id="container" class="container">
 		<h3>The text entered in the fields below will be POSTed to a JSP page that displays all values directly in the web page without any escaping or validation.</h3>
-		<h3>However, the web site is configured to use the <a href="https://github.com/AutoGeneral/ParameterValidationFilter">Parameter Validation Filter</a>, so the resulting page will not contain XSS code.</h3>
+		<h3>However, the web site is configured to use the <a href="https://github.com/mcasperson/ParameterValidationFilter">Parameter Validation Filter</a>, so the resulting page will not contain XSS code.</h3>
 		<h3>OWASP has some <a href="https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet">common XSS filter evasion tests</a> that can be used.</h3>
 		<h3>The source code for this web app can be found <a href="https://github.com/mcasperson/ParameterValidationFilterDemo">here</a>.</h3>
 
