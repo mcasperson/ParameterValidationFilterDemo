@@ -5,11 +5,7 @@ apply plugin: 'eclipse-wtp'
 def sonatypeStaging = 'http://oss.sonatype.org/content/repositories/snapshots'
 
 def jstlVersion = '1.2'
-def jacksonVersion = '1.9.13'
-def esapiVersion = '2.1.0'
-def guavaVersion = '14.0.1'
-def apacheCommonsIOVersion = '2.4'
-def apacheCommonsLangVersion = '3.0'
+def pvfVersion = '1.0.+'
 
 repositories {
 	mavenLocal()
@@ -19,9 +15,5 @@ repositories {
 
 dependencies {
 	compile 'javax.servlet:jstl:' + jstlVersion
-	compile 'org.codehaus.jackson:jackson-mapper-asl:' + jacksonVersion
-	compile 'org.owasp.esapi:esapi:' + esapiVersion
-	compile 'com.google.guava:guava:' + guavaVersion
-	compile 'commons-io:commons-io:' + apacheCommonsIOVersion
-	compile 'org.apache.commons:commons-lang3:' + apacheCommonsLangVersion
+	compile 'com.matthewcasperson:parameter_validation_filter:' + pvfVersion
 }
