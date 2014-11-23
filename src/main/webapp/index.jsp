@@ -17,6 +17,7 @@
 		<h3>However, the web site is configured to use the <a href="https://github.com/mcasperson/ParameterValidationFilter">Parameter Validation Filter</a>, so the resulting page will not contain XSS code.</h3>
 		<h3>OWASP has some <a href="https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet">common XSS filter evasion tests</a> that can be used.</h3>
 		<h3>The source code for this web app can be found <a href="https://github.com/mcasperson/ParameterValidationFilterDemo">here</a>.</h3>
+		<h3>If you find a way to embed an XSS into the DisplayPost.jsp page, please add a comment to <a href="http://java.dzone.com/articles/xss-filter-java-ee-web-apps">this</a> article.</h3>
 
 		<form action="DisplayPost.jsp" method="POST">
 		<p>
