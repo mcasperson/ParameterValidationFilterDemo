@@ -5,7 +5,8 @@ apply plugin: 'eclipse-wtp'
 def sonatypeStaging = 'http://oss.sonatype.org/content/repositories/snapshots'
 
 def jstlVersion = '1.2'
-def pvfVersion = '1.0.+'
+//def pvfVersion = 'TESTING-SNAPSHOT'
+def pvfVersion = '1.1.+'
 
 repositories {
 	mavenLocal()
